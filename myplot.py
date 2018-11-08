@@ -7,6 +7,7 @@ def main(filename=None):
 	ax.set_xlabel(r'$v(t) = \frac{\pi}{2}$')
 	ax.set_ylabel('time')
 	ax.set_xlim([0, 4])
+	ax.set_title(r'$x = 2$')
 	if filename is None:
 		plt.show()
 	else:
