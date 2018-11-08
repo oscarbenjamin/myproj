@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 def main(filename=None):
 	fig = plt.figure(figsize=(4, 3))
 	ax = fig.add_subplot(1,1,1)
-	ax.plot([1, 2, 3], [1, 2, -1])
+	ax.plot([1, 2, 3], [1, 2, -1], color='red')
 	ax.set_xlabel(r'$v(t) = \frac{\pi}{2}$')
 	ax.set_ylabel('time')
 	ax.set_xlim([0, 4])
